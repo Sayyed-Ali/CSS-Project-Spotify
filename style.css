@@ -4,7 +4,6 @@ body {
     background-color: black;
     color: white;
     overflow: hidden;
-    /* check MDN */
 }
 
 .main {
@@ -17,14 +16,12 @@ body {
     background-color: black;
     width: 340px;
     border-radius: 1rem;
-    /* 1 rem = 16px */
     margin-right: 0.5rem;
 }
 
 .main-content {
     background-color: blue;
     flex: 1;
-    /* this means give all other elements/divs the spce they required. Give all the remaining space to me */
     border-radius: 1rem;
     overflow: auto;
     background-color: #121212;
@@ -136,7 +133,6 @@ a {
     margin: 0.5rem;
     height: 2rem;
     width: fit-content;
-    /*--------- -------- */
 }
 
 .dark-badge {
@@ -170,7 +166,6 @@ a {
 }
 
 .nav-item {
-    /* we make this class to give same margin to all itmes rather than doing it for individual classes */
     margin-right: 1rem;
 }
 
@@ -224,7 +219,6 @@ a {
 }
 
 .card-catg {
-    /* this is made by me */
     display: flex;
     height: 3rem;
     margin: 0;
@@ -258,8 +252,6 @@ a {
     display: flex; 
     justify-content: center;
     align-items: center;
-    /* height: 50%;
-    padding: 5px; */
 }
 
 .player-control-icon{
@@ -282,19 +274,18 @@ a {
 
 .progress-bar{
     width: 70%;
-    appearance: none;  /* ---------------------- */
+    appearance: none; 
     background-color: transparent;
     cursor: pointer;
 }
 
-.progress-bar::-webkit-slider-runnable-track{ /* ------------ */
+.progress-bar::-webkit-slider-runnable-track{ 
     background-color: #ddd;
     border-radius: 100px;
     height: 0.2rem;
 }
 
-.progress-bar::-webkit-slider-thumb{/* ----------------- */
-    appearance: none;
+.progress-bar::-webkit-slider-thumb{
     height: 1rem;
     width: 1rem;
     background-color: #1bd760;
@@ -385,13 +376,13 @@ a {
     appearance: none;
 }
 
-.control-playback-bar::-webkit-slider-runnable-track{ /* ------------ */
+.control-playback-bar::-webkit-slider-runnable-track{ 
     background-color: #ddd;
     border-radius: 100px;
     height: 0.1rem;
 }
 
-.control-playback-bar::-webkit-slider-thumb{/* ----------------- */
+.control-playback-bar::-webkit-slider-thumb{
     appearance: none;
     height: 0.8rem;
     width: 0.8rem;
